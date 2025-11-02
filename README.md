@@ -1,10 +1,5 @@
 # Otimização de Portfólio de Estações com Branch and Bound
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&style=for-the-badge)
-![Pandas](https://img.shields.io/badge/Pandas-blueviolet?style=for-the-badge&logo=pandas)
-![NumPy](https://img.shields.io/badge/NumPy-white?style=for-the-badge&logo=numpy)
-![Licença](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
-
 Este é um projeto acadêmico para a disciplina de Pesquisa Operacional que aplica o algoritmo **Branch and Bound (B&B)** a um problema de seleção de portfólio.
 
 Utilizando dados de fluxo de passageiros do sistema de transporte público, o objetivo é determinar o conjunto ótimo de estações para um "projeto de melhoria" (modernização, publicidade, etc.). O projeto é modelado como um **Problema da Mochila 0-1 (Knapsack Problem)**, onde buscamos maximizar o "Valor" (fluxo anual de passageiros) sem exceder um "Peso" (orçamento de custo, representado pelo fluxo semanal).
@@ -116,3 +111,4 @@ Para executar o fluxo completo (carga, limpeza, EDA e otimização B&B), execute
 
 ```sh
 python main.py
+
